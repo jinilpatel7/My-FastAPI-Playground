@@ -28,7 +28,7 @@ Run the server
 CMD-->  uvicorn module_1:app --reload
 
 to see output: Endpoint:         http://127.0.0.1:8000/
-Interactive docs (Swagger UI):   http://127.0.0.1:8000/docs    #Automatic Documentation
+Interactive docs (Swagger UI):   http://127.0.0.1:8000/docs    #Automatic Documentation.
 Alternative docs (ReDoc):        http://127.0.0.1:8000/redoc
 
 """
