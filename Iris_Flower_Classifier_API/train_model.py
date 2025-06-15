@@ -1,0 +1,12 @@
+from sklearn.datasets import load_iris
+from sklearn.ensemble import RandomForestClassifier
+import joblib
+
+iris = load_iris()
+X,y = iris.data, iris.target
+
+model = RandomForestClassifier()
+model.fit(X,y)
+
+joblib.dump(model, "./Iris_Flower_Classifier_API/iris_model.pkl")
+print("Model saved")
